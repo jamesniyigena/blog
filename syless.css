@@ -104,6 +104,12 @@ grid-template-columns: 50% 50%;
   .righttext span{
     font-size: 20px;
     font-weight: bold;
+    padding: 120px;
+  }
+
+  .righttext p{
+    
+    padding: 120px;
   }
 
   .rowss{
@@ -127,6 +133,23 @@ text-align: center;
 margin-top: -70px;
 
 height: 600px;
+}
+
+.leftdeskphoto img {
+  margin-top: 150px;
+height: 600px;
+left:20px ;
+}
+
+.righttxt{
+
+  padding-left: 100px;
+  margin-top: 320px;
+}
+
+.righttxt span{
+  font-size: 20px;
+    font-weight: bold;
 }
 
 .topnav a {
