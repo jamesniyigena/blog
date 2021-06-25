@@ -3,8 +3,10 @@
 <head>
 
     <link rel="stylesheet"type="text/css" href="syless.css" />
-
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 <link rel="preconnect" href="https://fonts.google.com/specimen/Ubuntu?preview.text_type=custom" crossorigin>
+
+<script src="javscript.js"></script>
 
 </head>
 <body>
@@ -12,9 +14,11 @@
 <div class="header">
 <div class="topnav" >
   <span class="logo">Blogr</span>
- 
+
+  <div id="humberger">
+
   <div class="dropdown">
-    <button class="dropbtn">Product 
+    <button class="dropbtn">Product
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
@@ -22,8 +26,8 @@
       <a href="#">Link 2</a>
       <a href="#">Link 3</a>
     </div>
-  </div> 
-  <div class="dropdown">
+  </div>
+    <div class="dropdown">
         <button class="dropbtn">Campany
           <i class="fa fa-caret-down"></i>
         </button>
@@ -42,11 +46,20 @@
               <a href="#">Link 2</a>
               <a href="#">Link 3</a>
             </div>
-          </div>  
+          </div>
   <div class="login">
         <a href="#login">login</a>
         <a href="#signup" class="active">signup</a>
+
 </div>
+</div>
+
+<a href="javascript:void(0);" class="icon" onClick="myFunction()">
+  <i class="fa fa-bars"></i>
+</a>
+
+
+
 </div>
 
 <div class="intro">
@@ -57,37 +70,41 @@
     <a href="#" class="more">Learn more</a>
   </div>
 </div>
- 
 </div>
 
-<div class="container">
-  <h2>Designed for the future</h2>
-  <div class="rows">
-    <div class="left-side">
-      
-      <span>Introducing an extensibel editor</span>
-      <p>Blogr features an axceedingly intuitive interface which lets you focus on one thing:creating content. The editor supports management of multiple blogs and allows easy manipilation of embeds such as images,videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality and chancge the looks of a blog.</p>
-    
-      <span>Robust  content management</span>
-      <p>Flexible content management enables users to easily move through posts. Increase the usability of your blog by adding customized
-        categories,sections,format or flow. With this functionality, you're in full control </p>
-    
-    </div>
-    <div class="right-side">
-      <img src="assets/images/illustration-editor-mobile.svg" alt="">
-    </div>
-  </div>
+
+<div class="future">
+<h2>Designed for the future</h2>
+<div class="future-container">
+<div class="left">
+
+  <h3>Introducing an extensibel editor</h3>
+  <p>Blogr features an axceedingly intuitive interface which lets you focus on one thing:creating content. The editor supports management of multiple blogs and allows easy manipilation of embeds such as images,videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality and chancge the looks of a blog.</p>
+
+  <h3>Robust  content management</h3>
+  <p>Flexible content management enables users to easily move through posts. Increase the usability of your blog by adding customized
+    categories,sections,format or flow. With this functionality, you're in full control </p>
+
+ </div>
+<div class="right">
+
+  <img src="assets/images/illustration-editor-mobile.svg" alt="">
+
+</div>
+</div>
+</div>
+
 
 
 <div class="containers">
       <div class="row">
         <div class="leftphoto">
-      <img src="assets/images/illustration-phones.svg" alt="">
-  </div>
+            <img src="assets/images/illustration-phones.svg" alt="">
+        </div>
 
-  <div class="righttext">
-    <span>State of the Art Infrastructure</span>
-    <p>With realibility and speed in mind, worldwide data centers provide the backbone foor ultra-fast connectivity. This essures your site will load instantly, no matter where your readers are, keeping your site competitive.  </p>
+    <div class="righttext">
+      <span>State of the Art Infrastructure</span>
+      <p>With realibility and speed in mind, worldwide data centers provide the backbone foor ultra-fast connectivity. This essures your site will load instantly, no matter where your readers are, keeping your site competitive.  </p>
      </div>
 </div>
 </div>
@@ -99,23 +116,27 @@
           <img src="assets/images/illustration-laptop-mobile.svg" alt="">
         </div>
     <div class="righttxt">
-      
+
       <span>Free, open, simple</span>
       <p>Blogr is free and open source application by large community of helpful of developers. it supportsfeatures such as code syntax highlighting, RSS feeds, social media integration, third-party commenting tools, and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn
       </p>
-    
+
       <span>Powerfull tooling</span>
       <p>Batteries included. We built a simple and straightfoward CLI tool that makes customization and deployment a breeze, but capable of producing even the most complicated sites </p>
-    
+
     </div>
-   
+
   </div>
 
 
   <div class="footer-clean">
     <footer>
         <div class="containe">
-            <span class="blogr">Blogr</span>
+            <span class="blogr">
+              
+              <h3>Blogr
+                </h3>
+              </span>
                 <div class="Product">
                     <h3>Product</h3>
                     <ul>
@@ -143,7 +164,7 @@
                         <li><a href="#">Linkedin</a></li>
                     </ul>
                 </div>
-            
+
         </div>
     </footer>
 </div>

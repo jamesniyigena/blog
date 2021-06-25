@@ -177,7 +177,7 @@ height: 600px;
 
 .product a{
   text-decoration: none;
-  
+
 }
 
 ul li{
@@ -203,7 +203,7 @@ overflow: hidden;
 }
 
 .dropdown .dropbtn {
-font-size: 17px;    
+font-size: 17px;
 border: none;
 outline: none;
 color: white;
@@ -245,3 +245,136 @@ color: black;
 display: block;
 }
 
+
+.future-container {
+  padding: 100px;
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+
+.future h2 {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.right img {
+  margin-top: -150px;
+  width: 100%;
+  height: 700px;
+}
+
+.icon{
+  display: none;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+  body {
+    width: 100%;
+  }
+  .header {
+    width: 100%;
+    padding-left: 10px;
+  }
+  #humberger {
+    display: none;
+  }
+  .topnav .logo {
+    margin-left: 10px;
+  }
+
+  .header .intro {
+    text-align: center;
+  }
+
+  .future {
+      background-position: center top;
+  }
+
+  .future h2 {
+    margin-top: 30px;
+  }
+
+  .future-container {
+    padding: 20px;
+    display: table;
+  }
+
+  .future-container .right {
+    display:table-header-group;
+  }
+
+  .future-container .left {
+    display:table-footer-group;
+  }
+
+  .right img {
+    margin-top: 50px;
+    width: 500px;
+    height: 400px;
+  }
+
+  .containers {
+    margin-top: 100px;
+    height: 800px;
+    background-size: 600px;
+    background-position: 100%;
+  }
+
+  .containers .row {
+      display: table;
+
+    }
+
+    .row .leftphoto{
+      display:table-header-group;
+    }
+
+    .righttext{
+      display:table-footer-group;
+      color: white;
+      text-align: center;
+      padding: 80px;
+    }
+
+    .righttext span {
+     font-size: 20px;
+     font-weight: bold;
+    }
+
+    .righttext p {
+      padding: 30px;
+    }
+
+    .container .rows {
+      display: grid;
+      grid-template-columns: auto;
+    }
+    .container .rows .leftdeskphoto img {
+      margin-left: -100px;
+      width: 700px;
+      height: 500px;
+    }
+
+    .rows .righttxt {
+      padding: 10px;
+      margin-top: 20px;
+    }
+
+    .containe{
+      display: grid;
+      grid-template-columns: auto;
+      padding: 50px 120px;
+      height: auto;
+
+    }
+
+    .icon{
+      display: block;
+      color: #0078FF;
+      font-size: 60px;
+    }
+
+}
